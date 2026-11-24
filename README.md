@@ -14,7 +14,7 @@ classDiagram
         +return_book()
         +show_info()
     }
-
+"""
 Class Overview
 Attributes:
 title: Title of the book.
