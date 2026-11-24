@@ -1,4 +1,4 @@
-# Book Class Diagram to Python Implementation
+# Class Diagram
 
 This repository contains a simple Python implementation of a **Book** UML class diagram.
 
@@ -14,18 +14,16 @@ classDiagram
         +return_book()
         +show_info()
     }
+```
 
-"""
-Class Overview
-Attributes:
-title: Title of the book.
-author: Author of the book.
-is_available: Shows whether the book is available to borrow (True or False).
-Methods:
-borrow(): Marks the book as borrowed if it is available.
-return_book(): Marks the book as available again.
-show_info(): Prints the book's title, author, and availability status.
+## Class Overview
 
-"""
+### Attributes
+- `title`: Title of the book.
+- `author`: Author of the book.
+- `is_available`: Shows whether the book is available to borrow (True or False).
 
-
+### Methods
+- `borrow()`: Marks the book as borrowed if it is available.
+- `return_book()`: Marks the book as available again.
+- `show_info()`: Prints the book's title, author, and availability status.
