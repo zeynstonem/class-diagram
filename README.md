@@ -14,6 +14,7 @@ classDiagram
         +return_book()
         +show_info()
     }
+
 """
 Class Overview
 Attributes:
@@ -24,5 +25,7 @@ Methods:
 borrow(): Marks the book as borrowed if it is available.
 return_book(): Marks the book as available again.
 show_info(): Prints the book's title, author, and availability status.
+
+"""
 
 
